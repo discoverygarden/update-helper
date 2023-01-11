@@ -20,8 +20,8 @@ class UpdateHelper {
    * @return \Drupal\Core\StringTranslation\TranslatableMarkup
    *   A messge regarding the state of managing the module.
    *
-   * @throws \Drupal\Core\Utility\UpdateException if we could not enable the module
-   *   for some reason.
+   * @throws \Drupal\Core\Utility\UpdateException
+   *   Thrown if we could not enable the module for some reason.
    */
   public static function ensureModuleEnabled(string $module) {
     $module_handler = \Drupal::moduleHandler();
