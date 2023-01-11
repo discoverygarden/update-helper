@@ -48,9 +48,9 @@ class UpdateHelper {
       throw new UpdateException("Failed; encountered an exception while trying to enable '$module'.", 0, $e);
     }
 
-    // Theoretically impossible to hit, as ModuleInstaller::install() only returns
-    // TRUE (or throws/propagates an exception), but... probably a good idea to
-    // have the here, just in case?
+    // Theoretically impossible to hit, as ModuleInstaller::install() only
+    // return TRUE (or throws/propagates an exception), but... probably a good
+    // idea to have the here, just in case?
     throw new UpdateException('Failed; hit the end of the update hook implementation, which is not expected.');
   }
 
