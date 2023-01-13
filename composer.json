@@ -2,5 +2,8 @@
     "name": "discoverygarden/update-helper",
     "license": "GPL-3.0-only",
     "require": {
+    },
+    "autoload": {
+        "Discoverygarden\\": "src/"
     }
 }
