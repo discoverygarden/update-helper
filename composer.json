@@ -4,6 +4,8 @@
     "require": {
     },
     "autoload": {
-        "Discoverygarden\\": "src/"
+        "psr-0": {
+            "Discoverygarden\\": "src/"
+        },
     }
 }
