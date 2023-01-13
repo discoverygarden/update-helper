@@ -6,6 +6,6 @@
     "autoload": {
         "psr-0": {
             "Discoverygarden\\": "src/"
-        },
+        }
     }
 }
